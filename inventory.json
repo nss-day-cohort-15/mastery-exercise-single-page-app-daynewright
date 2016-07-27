@@ -1,0 +1,60 @@
+
+
+{
+  "cars" : [
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "8999",
+      "color": "FireBrick",
+      "purchased": false,
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Toyota",
+      "model": "Tacoma",
+      "year": "2010",
+      "price": "15999",
+      "color": "Aqua",
+      "purchased": true,
+      "description": "This is an immaculate 2010 Toyota Tacoma Ext Cab with only 50000 miles on it. Sunroof, V8 engine."
+    },
+    {
+      "make": "Mazda",
+      "model": "Protege",
+      "year": "1999",
+      "price": "1999",
+      "color": "Eggplant",
+      "purchased": false,
+      "description": "This car still runs and has 257000 miles on it. It comes with all four doors."
+    },
+    {
+      "make": "Honda",
+      "model": "Odyssey",
+      "year": "1999",
+      "price": "500",
+      "color": "Sad Grey",
+      "purchased": true,
+      "description": "This van still run although it only goes in drive. If you buy it we will include a full tank of gas!"
+    },
+    {
+      "make": "Mazda",
+      "model": "Protege",
+      "year": "1999",
+      "price": "1999",
+      "color": "Eggplant",
+      "purchased": false,
+      "description": "This car still runs and has 257000 miles on it. It comes with all four doors."
+    },
+    {
+      "make": "Honda",
+      "model": "Odyssey",
+      "year": "1999",
+      "price": "500",
+      "color": "Sad Grey",
+      "purchased": true,
+      "description": "This van still run although it only goes in drive. If you buy it we will include a full tank of gas!"
+    }
+  ]
+}
