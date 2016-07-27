@@ -25,7 +25,7 @@
       "model": "Protege",
       "year": "1999",
       "price": "1999",
-      "color": "Eggplant",
+      "color": "Coral",
       "purchased": false,
       "description": "This car still runs and has 257000 miles on it. It comes with all four doors."
     },
@@ -34,7 +34,7 @@
       "model": "Odyssey",
       "year": "1999",
       "price": "500",
-      "color": "Sad Grey",
+      "color": "DarkSlateBlue",
       "purchased": true,
       "description": "This van still run although it only goes in drive. If you buy it we will include a full tank of gas!"
     },
@@ -43,7 +43,7 @@
       "model": "Protege",
       "year": "1999",
       "price": "1999",
-      "color": "Eggplant",
+      "color": "DeepPink",
       "purchased": false,
       "description": "This car still runs and has 257000 miles on it. It comes with all four doors."
     },
@@ -52,8 +52,8 @@
       "model": "Odyssey",
       "year": "1999",
       "price": "500",
-      "color": "Sad Grey",
-      "purchased": true,
+      "color": "Indigo",
+      "purchased": false,
       "description": "This van still run although it only goes in drive. If you buy it we will include a full tank of gas!"
     }
   ]

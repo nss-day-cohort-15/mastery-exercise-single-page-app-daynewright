@@ -13,7 +13,7 @@ var Carlot = (function(carlot){
 
     cars.forEach(function (car) {
       row.innerHTML += `
-        <div class="col-md-4 center-box">
+        <div class="col-md-4 center-box" style="border: 3px solid ${car.color};">
           <h2>${car.make}</h2>
           <h1>${car.model}</h1>
           <h4>${car.year}</h4>
