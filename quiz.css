@@ -6,6 +6,11 @@ body {
 .center-box {
   text-align: center;
   margin-top: 50px;
+  padding-bottom: 10px;
+}
+
+.car-block {
+  cursor: pointer;
 }
 
 li {
@@ -14,4 +19,8 @@ li {
 
 h2, h1 {
   margin: 5px;
+}
+
+footer {
+  margin-bottom: 50px;
 }
