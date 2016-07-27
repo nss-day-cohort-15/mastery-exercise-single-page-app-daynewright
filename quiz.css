@@ -1,5 +1,17 @@
+/*
+body {
+  padding-top: 70px;
+}*/
 
 .center-box {
   text-align: center;
   margin-top: 50px;
+}
+
+li {
+  font-size: 1.75rem;
+}
+
+h2, h1 {
+  margin: 5px;
 }
