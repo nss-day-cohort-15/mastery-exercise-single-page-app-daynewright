@@ -24,3 +24,7 @@ h2, h1 {
 footer {
   margin-bottom: 50px;
 }
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}

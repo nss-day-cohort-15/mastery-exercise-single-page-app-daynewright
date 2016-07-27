@@ -21,9 +21,14 @@ var CarLot = (function () {
     activateEvents: function() {
       document.querySelectorAll('.car-block').forEach(e => e.addEventListener('click', changeBlock));
 
+      var input = document.querySelector('input');
+
+
       function changeBlock(evt){
         this.style.border = `5px solid ${evt.currentTarget.style.borderTopColor}`;
         this.style.background = "#e6e6e6";
+        input.focus();
+        input.value = "";
       }
 
     }
