@@ -28,3 +28,7 @@ footer {
 input:focus::-webkit-input-placeholder {
   color: transparent;
 }
+
+.clicked {
+  background-color: #000;
+}

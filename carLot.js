@@ -19,26 +19,32 @@ var CarLot = (function () {
     },
 
     activateEvents: function() {
+      var carBlock = document.querySelectorAll('.car-block');
       var input = document.querySelector('input');
-      
-      document.querySelectorAll('.car-block').forEach(e => e.addEventListener('click', changeBlock));
+      var descript;
+
+      carBlock.forEach(e => e.addEventListener('click', changeBlock));
       input.addEventListener('keypress', updateDescription);
 
-
-      function updateDescription(descript){
-        descript = "";
-        document.querySelector('input').addEventListener('keypress', function(evt){
-          descript += evt.target.value;
-        });
-      }
-
       function changeBlock(evt){
+        document.querySelector('input').removeEventListener('keyup', changeDescript);
+
         this.style.border = `5px solid ${evt.currentTarget.style.borderTopColor}`;
         this.style.background = "#e6e6e6";
         input.focus();
         input.value = "";
-        updateDescription(evt.currentTarget.childNodes[11].innerHTML);
+
+        descript = evt.currentTarget.childNodes[11];
       }
+
+      function changeDescript(evt){
+        descript.innerHTML = "";
+        descript.innerHTML += evt.target.value;
+      }
+
+      function updateDescription(descript){
+        document.querySelector('input').addEventListener('keyup', changeDescript);
+     }
 
     }
   };
