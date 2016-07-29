@@ -28,11 +28,13 @@ var CarLot = (function () {
 
       function changeBlock(evt){
         document.querySelector('input').removeEventListener('keyup', changeDescript);
+        document.querySelectorAll('.car-block').forEach(e => e.style = `border: 3px solid ${e.style.borderTopColor}`);
 
         this.style.border = `5px solid ${evt.currentTarget.style.borderTopColor}`;
         this.style.background = "#e6e6e6";
         input.focus();
         input.value = "";
+
 
         descript = evt.currentTarget.childNodes[11];
       }
